@@ -1,9 +1,7 @@
 ﻿using System.Data;
-namespace task3
+namespace task3;
 
+public interface IDbConnectionFactory
 {
-    public interface IDbConnectionFactory
-    {
-        IDbConnection CreateConnection();
-    }
+    IDbConnection CreateConnection();
 }
